@@ -15,7 +15,7 @@ ONLY_BASE="no"
 # and root and user passwords                         *
 # *****************************************************
 HOSTNAME="OrangePI"
-USER="orangepi"
+USER="vaibhavgupta"
 ROOTPASS="orangepi"
 USERPASS="orangepi"
 
@@ -23,7 +23,7 @@ USERPASS="orangepi"
 # *****************************************************
 # Set timezone, for default (HOST'S) set _timezone="" *
 # *****************************************************
-_timezone="Etc/UTC"
+_timezone="Etc/UTC+5.30"
 #_timezone=""
 
 
@@ -53,7 +53,7 @@ LANG="en_US.UTF-8"
 # IF _format="" partition will NOT be formated        *
 # otherwyse it will be formated with specified format *
 # *****************************************************
-image_name=""
+image_name="orangepi"
 #image_name="minimal"
 #image_name="/dev/sdg"
 
@@ -90,11 +90,11 @@ linuxsize=800
 
 # === Ubuntu ===
 #distro="precise"
-distro="trusty"
+#distro="trusty"
 #distro="utopic"
 #distro="vivid"
 #distro="wily"
-repo="http://ports.ubuntu.com/ubuntu-ports"
+#repo="http://ports.ubuntu.com/ubuntu-ports"
 
 # === Debian ===
 #distro="wheezy"
@@ -104,9 +104,9 @@ repo="http://ports.ubuntu.com/ubuntu-ports"
 
 # === Raspbian ===
 #distro="wheezy"
-#distro="jessie"
-#repo="http://archive.raspbian.org/raspbian"
-#raspbian="yes"
+distro="jessie"
+repo="http://archive.raspbian.org/raspbian"
+raspbian="yes"
 
 # ******************************************************
 # If creating the image, you can xz compress the image *
